@@ -25,15 +25,36 @@
 	li{
 		padding: 20px 0;
 	}
+	.list-group {
+	  padding-left: 0;
+	  margin-bottom: 20px;
+	}
+	.list-group-item {
+	  position: relative;
+	  display: block;
+	  padding: 10px 15px;
+	  margin-bottom: -1px;
+	  background-color: #fff;
+	  border: 1px solid #ddd;
+	}
+	.list-group-item:first-child {
+	  border-top-left-radius: 4px;
+	  border-top-right-radius: 4px;
+	}
+	.list-group-item:last-child {
+	  margin-bottom: 0;
+	  border-bottom-right-radius: 4px;
+	  border-bottom-left-radius: 4px;
+	}
 </style>
 </head>
 <body>
-<ul>
-	<li><a href="https://sophiabrook.github.io/css3/loading1.html">loading1</a></li>
-	<li><a href="https://sophiabrook.github.io/css3/loading2.html">loading2</a></li>
-	<li><a href="https://sophiabrook.github.io/css3/moving-cube.html">moving-cube</a></li>
-  <li><a href="https://sophiabrook.github.io/css3/3d-carousel.html">3d-carousel</a></li>
-  <li><a href="https://sophiabrook.github.io/css3/css3-fade-carousel.html">css3-fade-carousel</a></li>
+<ul class="list-group">
+	<li class="list-group-item"><a href="https://sophiabrook.github.io/css3/loading1.html">loading1</a></li>
+	<li class="list-group-item"><a href="https://sophiabrook.github.io/css3/loading2.html">loading2</a></li>
+	<li class="list-group-item"><a href="https://sophiabrook.github.io/css3/moving-cube.html">moving-cube</a></li>
+  <li class="list-group-item"><a href="https://sophiabrook.github.io/css3/3d-carousel.html">3d-carousel</a></li>
+  <li class="list-group-item"><a href="https://sophiabrook.github.io/css3/css3-fade-carousel.html">css3-fade-carousel</a></li>
 </ul>
    
 </body>
